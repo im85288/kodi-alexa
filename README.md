@@ -245,7 +245,7 @@ After you've done that, run `pip install virtualenv`. This is required for a lat
 Now, clone my repo: `git clone https://github.com/m0ngr31/kodi-alexa.git` and `cd kodi-alexa`. Once you are inside the project directory, you're going to create a new "Virtual environement" and then activate it:
 `virtualenv venv` and `source venv/bin/activate` (if you are on Windows, that's `venv\Scripts\activate.bat` or `venv\Scripts\activate.ps1` for Powershell).
 
-Next you need to create the file `kodi.config` from the [kodi.config.example template](https://raw.githubusercontent.com/m0ngr31/kodi-voice/master/kodi_voice/kodi.config.example) and enter the correct information for: address, port, username, and password. I'll go over the other variables in another section below.
+Next you need to create the file `kodi.config` from the [kodi.config.example template](https://raw.githubusercontent.com/im85288/kodi-voice/master/kodi_voice/kodi.config.example) and enter the correct information for: address, port, username, and password. I'll go over the other variables in another section below.
 
 After you've created your config file, run `pip install -r requirements.txt` and `pip install packaging zappa lambda-packages`.
 
@@ -263,7 +263,7 @@ Now skip ahead to [Skill Setup](#skill-setup).
 
 If you are savvy enough to run your own web server, this is just a bog-standard WSGI app, and you're free to host it on any web server, provided it supports HTTPS.  You will have to generate your own SSL certificate, be it self-signed or via a Certificate Authority (CA), such as [Let's Encrypt](https://letsencrypt.org/).  This is an Amazon requirement.
 
-You will need to create the file `kodi.config` from the [kodi.config.example template](https://raw.githubusercontent.com/m0ngr31/kodi-voice/master/kodi_voice/kodi.config.example).  The template file contains comments to describe the options.
+You will need to create the file `kodi.config` from the [kodi.config.example template](https://raw.githubusercontent.com/im85288/kodi-voice/master/kodi_voice/kodi.config.example).  The template file contains comments to describe the options.
 
 Install the modules in `requirements.txt`.
 

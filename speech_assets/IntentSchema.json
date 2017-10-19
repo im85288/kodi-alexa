@@ -752,6 +752,24 @@
       "intent": "CurrentPlayItemTimeRemaining"
     },
     {
+      "intent": "WatchPVRChannel",
+      "slots": [
+        {
+          "name": "Channel",
+          "type": "CHANNELS"
+        }
+      ]
+    },
+    {
+      "intent": "WatchPVRBroadcast",
+      "slots": [
+        {
+          "name": "Broadcast",
+          "type": "BROADCASTS"
+        }
+      ]
+    },
+    {
       "intent": "AddonExecute",
       "slots": [
         {
