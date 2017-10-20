@@ -268,10 +268,10 @@ AddonGlobalSearch (find/search for) {Movie}
 AddonGlobalSearch (find/search for) {Album}
 AddonGlobalSearch (find/search for) {Artist}
 
-WatchPVRBroadcast (watch/play/find/look for) the (program/broadcast) (/called) {Broadcast}
-WatchPVRBroadcast (jump/change channel) to {Broadcast}
-WatchPVRChannel (play/watch) (p.v.r./t.v./live t.v.) (/channel) {Channel}
-WatchPVRChannel (play/watch) channel {Channel}
+WatchPVRBroadcast (play/watch) (/the) (/t. v./live t. v.) (program/broadcast) {Broadcast}
+WatchPVRBroadcast change channel to {Broadcast}
+WatchPVRChannel (play/watch) (/the) (p. v. r./t. v./live t. v.) (/channel) {Channel}
+WatchPVRChannel (play/watch) (/the) channel {Channel}
 
 AMAZON.HelpIntent what can (you do/i ask you)
 AMAZON.HelpIntent things to try
